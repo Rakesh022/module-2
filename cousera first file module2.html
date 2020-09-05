@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title> our menu</title>
+<style>
+
+/***********base styles************/
+{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+} 
+h1{
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+div.col-lg-4{
+	background-color:grey;
+	 border:1px solid black; 
+	margin : 20px;
+}
+
+p{
+   padding:15px 20px 0px 15px;
+	width: 300px;
+	height:90px;
+	font-family: helvetica;
+	color: white;
+}
+h3{
+	float:right;
+	border: 1px solid black;
+	margin right: auto;
+	margin left: auto;
+	padding:10px 10px 10px 10px;
+    margin-top: auto;
+}
+#CHICKEN{
+	background-color: pink;
+}
+#BEEF{
+	background-color: red;
+}
+#SUSHI{
+	background-color: yellow;
+}
+
+/*simple responsive framework*/
+.row {
+	width:100%;
+
+}
+
+/****large devices only *****/
+@media (min-width: 1200px) {
+	.col-lg-4,.col-lg-4,.col-lg-4{
+		float:left;
+	}
+
+ .col-lg-4{
+  width: 30%
+ }
+ .col-lg-4{
+ 	width:30%;
+ }
+ .col-lg-4{
+ 	width:30%;
+ }
+ 
+
+</style>
+</head>
+<body>
+<h1> our menu</h1>
+
+<div class="row">
+<div class="col-lg-4">
+	<h3 id="CHICKEN" >CHICKEN</h3>
+	<p> lorem ipsum dolor sit amet,consectetur adipisicing elit.Tenetur magnum suscipit illum,sapiente quisqum iusto atuyr quibsdum ingruyt polunet venian julike rasfter molestias. </p>
+ 
+</div>
+
+<div class="col-lg-4" >
+	<h3 id="BEEF" >BEEF</h3>
+	<p>lorem ipsum dolor sit amet,consectetur adipisicing elit.Tenetur magnum suscipit illum,sapiente quisqum iusto atuyr   
+quibsdum ingruyt polunet venian julike rasfter molestias.</p>
+ 
+</div>
+
+<div class="col-lg-4">
+	<h3 id="SUSHI" >SUSHI</h3>
+		<p>lorem ipsu"m dolor sit amet,consectetur adipisicing elit.Tenetur magnum suscipit illum,sapiente quisqum iusto atuyr   
+quibsdum ingruyt polunet venian julike rasfter molestias.</p>
+ 
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
